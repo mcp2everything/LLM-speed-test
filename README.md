@@ -9,14 +9,13 @@
 ## 环境要求
 
 - Python 3.11+
-- Conda (推荐使用)
 - uv (Python包管理工具)
 
 ## 环境配置
 
-1. 激活Python环境：
+1. 安装uv：
 ```bash
-conda activate py311
+brew install uv
 ```
 
 2. 创建虚拟环境：
@@ -46,7 +45,9 @@ source .venv/bin/activate
 
 ## 使用说明
 将models.csv.example 改为models.csv 并填入自己的apikey信息
+```bash
 python app.py
+```
 然后等待完成即可
 1. 确保已正确配置环境并激活虚拟环境
 2. 运行测试脚本进行性能测试
