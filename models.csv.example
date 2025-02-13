@@ -1,0 +1,5 @@
+provider,base_url,model_name,api_key,price_per_1k_tokens
+OpenAI,https://api.openai.com/v1,gpt-4o-mini,your-api-key,输入：每百万 Tokens 收费 0.15 美元 输出：每百万 Tokens 收费 0.60 美元。
+SiliconFlow,https://api.siliconflow.cn/v1,deepseek-ai/DeepSeek-V3,your-api-key,按每百万 Tokens 计费，输入 2 元，输出 8 元。
+DeepSeek,https://api.deepseek.com/v1,deepseek-chat,your-api-key,按每百万 Tokens 计费，输入 2 元，输出 8 元。
+Qwen,https://dashscope.aliyuncs.com/compatible-mode/v1,qwen-plus,your-api-key,按每千 Tokens 计费，输入 0.0008 元，输出 0.002 元。
